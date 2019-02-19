@@ -1,4 +1,5 @@
 import toggleActive from './toggleActive.js';
+import handleEditorInput from './handleEditorInput.js';
 
 // select edit button
 const editButtons = document.querySelectorAll('.edit-button, .save-button');
@@ -9,12 +10,5 @@ editButtons.forEach(button => button.addEventListener('click', toggleActive));
 document.querySelectorAll('.editor').forEach
 (editor => editor.addEventListener('input', handleEditorInput));
 
-// update text ( or style) of siblings
-function handleEditorInput(event) {
-  if (event.target.type === 'text' || event.target.tagName === 'TEXTAREA'){
-  const textElement = event.currentTarget.parentNode.querySelector('.text-element');
-  const text = event.target.value;
-  textElement.innerText = text;
-  }
-}
+
 
