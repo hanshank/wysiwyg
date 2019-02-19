@@ -1,0 +1,7 @@
+import toggleActive from './toggleActive.js';
+
+// select edit button
+const editButtons = document.querySelectorAll('.edit-button');
+// add event listener (click)
+editButtons.forEach(button => button.addEventListener('click', toggleActive));
+
