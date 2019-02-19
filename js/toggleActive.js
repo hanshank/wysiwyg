@@ -9,4 +9,5 @@ export default function toogleActive(event) {
     const editableText = event.target.parentElement;
   // toggle the class active (on some element)
     editableText.classList.toggle('active');
+    // console.log(event.target);
   }
