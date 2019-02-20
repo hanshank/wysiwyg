@@ -16,7 +16,7 @@
   transition: all 350ms;
 }
 
-#add--header-button:hover {
+#add-header-button:hover {
   background-color: hsl(208, 70%, 80%);
   opacity: 0.9;
 }
