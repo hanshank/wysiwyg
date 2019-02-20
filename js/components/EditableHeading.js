@@ -23,7 +23,7 @@ export default class EditableHeading extends EditableText {
         <button type="button" class="edit-button">Edit</button>
         <button type="button" class="save-button">Save</button>
         <button type="button" class="del-button">Delete</button>
-        <${this.heading} class="text-element">Go ahead, edit me however you want!</${this.heading}>
+        <${this.heading} class="text-element">Title Goes Here!</${this.heading}>
 
         <wysiwyg-editor></wysiwyg-editor>
     `
